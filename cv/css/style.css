@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+.top {
+    background-color: burlywood;
+    padding: 15px;
+}
+
+.middle {
+    background-color:blanchedalmond;
+    padding: 15px;
+
+    font-family: "Trirong", serif;
+    color: #7c440e;
+    font-size: 1.1em;
+}
+
+.bottom {
+    background-color:darksalmon;
+    padding: 15px;
+
+    text-align: center;
+
+    border-style: ridge;
+    border-width: 4px 0px 4px 0px;
+    border-color: #663406;
+}
+
+h1, h2, h3 {
+    font-family: "Audiowide", sans-serif;
+    color: #663406;
+
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-family: "Trirong", serif;
+    color: #7c440e;
+
+    font-size: 1.1em;
+    
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: pink;
+}
+
+dl dd a {
+    color: red;
+}
+
+.button {
+    background-color: salmon;
+    border: none;
+    margin: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button a {
+    display: block;
+    padding: 15px;
+  }
+
+  hr {
+    border-width: 4px;
+    border-color: #663406;
+  }
+
+  #image1div {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+  }
+
+  #image2div {
+    position: absolute;
+    top: 5px;
+    right: 115px;
+
+  }
+
+  div img {
+    border: 2px solid #663406;
+  }
+
+  .float-image {
+    float: right;
+
+  }
+
+
+.contact-div {
+    background-color: blanchedalmond;
+    padding: 5%;
+}
+
+.contact-div * {
+    margin: 0;
+    padding: 15px;
+
+    font-family: "Trirong", sans-serif;
+
+    text-align: center;
+}
+
+.contact-div h1 {
+    font-family: "Audiowide", sans-serif;
+}
+
+.contact-div hr {
+    padding: 0px;
+    margin: 10px;
+}
+
+#submit {
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.form-div {
+    background-color: burlywood;
+    box-shadow: 10px 10px #663406;
+
+    width: 65%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
